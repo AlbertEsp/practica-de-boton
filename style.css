@@ -1,0 +1,92 @@
+body {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 50%);
+}
+
+h2 {
+  font-size: 35px;
+  color: green;
+  font-family: 'Lobster', cursive, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Inconsolata', monospace;
+}
+
+.imagen-de-gato {
+  width: 200px;
+  border-width: 10px;
+  border-color: darkblue;
+  border-style: groove solid outset inset;
+  border-radius: 10px;
+}
+
+
+#lista-gatos-aman {
+  font-size: 18px;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#lista-gatos-odian {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lasagna {
+  width: 200px;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+
+.advertenica {
+  font-size: 20px;
+  color: #7c1818;
+  text-decoration: underline;
+}
+
+#carinoso, #perezoso, #energico {
+  margin: 8px;
+}
+
+#imagen-de-gatos {
+  width: 200px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #7c1818;
+}
+
+.boton-flotante {
+  transition: background-color 0.8s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#boton-inicio {
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-shadow: 8px 7px 5px #2020ad;
+  background-color: #1d0f66;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.8s ease;
+}
+
+#boton-inicio:hover {
+  background-color: #7c1818;
+  box-shadow: 8px 7px 5px rgb(255, 0, 0);
+  transform: scale(1.1);
+}

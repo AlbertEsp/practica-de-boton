@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App De Gatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@300&family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="boton-flotante">
+      <button id="boton-inicio">
+        Inicio
+      </button>
+    </div>
+    <h2>App De Gatos</h2>
+    <h3>Imagenes de gatos:</h3>
+    <!-- TODO: agregar enlace a image es de gatos. -->
+    <p>Has click aqui para ver mas <a href="https://www.freepik.es/fotos-vectores-gratis/gatos-lindos" target="_blank" rel="noopener noreferrer">imagenes de gatos.</a></p>
+
+    <a href="https://www.freecodecamp.org/espanol/learn" target="_blank" rel="noopener noreferrer"><img class="imagen-de-gato" src="https://bit.ly/fcc-relaxing-cat" alt="Gato acostado"></a>
+
+    <hr>
+
+    <h3>Listas de gatos</h3>
+    <div>
+      <p>Cosas que los gatos <em>aman:</em></p>
+      <ul id="lista-gatos-aman">
+        <li><strong><em>Hierva gatuna</em></strong></li>
+        <img class="lasagna" src="Imagenes para practicar/Hierba gatuna.jpg" alt="">
+        <li>Apuntadores lazer</li>
+        <img class="lasagna" src="Imagenes para practicar/gato jugando con un laser.jpg" alt="Gato jugando con un laser">
+        <li><s>Lasaña</s></li>
+        <img class="lasagna" src="Imagenes para practicar/Lasana.jpg">
+      </ul>
+      <strong><p class="advertenica">(No le des lasaña a tu gato eso solo es una referencia a una caricatura llamada Garfield)</p></strong>
+
+      <p>Cosas que los gatos <strong>odian</strong></p>
+      <ol id="lista-gatos-odian">
+        <li>Tratamientos antipulgas</li>
+        <img id="imagen-de-gatos" src="Imagenes para practicar/Pulgas gatos.jpg" alt="">
+        <li>Truenos</li>
+        <img id="imagen-de-gatos" src="Imagenes para practicar/Truenos.jpg" alt="">
+        <li>Otros gatos</li>
+        <img id="imagen-de-gatos" src="Imagenes para practicar/Gatos peleando.jpg" alt="Muchos gatos">
+
+      </ol>
+    </div>
+
+    <form action="/enviar-respuesta">
+      <!-- botones de radio  -->
+      <label for="interior">
+        <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+      </label>
+      <br>
+      <label for="exterior">
+        <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+      </label>
+      <br>
+
+      <!-- casillas de verififacion -->
+      <label for="carinoso">
+        <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+      </label>
+      <br>
+      <label for="perezoso">
+        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+      </label>
+      <br>
+      <label for="energico">
+        <input id="energico" type="checkbox" value="energico" name="personalidad">Energico
+      </label>
+      <br>
+      
+      <!-- texto y boton enviar -->
+      <input type="text" placeholder="URL de la foto de tu gato" required><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </main>
+  <footer>
+    <p>Los derechos de las imagenes usadas son para los respectivos autores, solo fueron usadas como referencia. Adjunto mi perfil de linkedin por cualquier cosa. <a href="https://www.linkedin.com/in/alberto-esparza-/" target="_blank">Mi Perfil de Linkedin</a></p>
+  </footer>
+  <script src="javascrip.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
