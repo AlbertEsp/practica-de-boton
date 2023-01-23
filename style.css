@@ -15,6 +15,7 @@ h3 {
 
 a {
   font-family: 'Inconsolata', monospace;
+  color: blue;
 }
 
 .imagen-de-gato {
@@ -61,6 +62,14 @@ a {
   border-width: 5px;
   border-style: solid;
   border-color: #7c1818;
+}
+
+#interior {
+  margin: 5px;
+}
+
+#exterior {
+  margin: 5px;
 }
 
 .boton-flotante {
